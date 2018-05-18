@@ -1,0 +1,99 @@
+/*<576px*/
+@media (max-width: 575px) {
+    .pic{
+    position: absolute;
+    left: 9.6%;
+    top: 26.6%;
+    width: 80.5%;
+    height: 70.7%;
+    }
+}
+/*576px-768px*/
+@media (min-width: 576px) and (max-width: 767px){
+    .pic{
+    position: absolute;
+    left: 52px;
+    top: 90px;
+    width: 435px;
+    height: 267px;
+    }
+}
+/*mobilesm*/
+@media (max-width: 767px) {
+    .col-sm-6{
+    -webkit-box-flex:0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+    .sm-hidden{display: none;}
+    .navbar-tip {display: none;}
+    .navbar-func {height: 50px;background-color: #fff;}
+    .navbar-func .login{display: none;}
+    .navbar-header button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+    height: 42px;
+    margin-top: 5px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 20px;
+    outline: none;
+    }
+    .navbar-func .container{
+        max-width: 100%;
+    }
+    .navbar-content{display: none}
+    .navbar-header{
+    width: 100%;
+    height: 100%;
+    }
+    .huge-screen{
+        height: 421px;
+        background-image:linear-gradient(-42deg,#4d2897,#40decc)
+    }
+    .huge-screen .hs-content{width: 100%;padding: 0}
+    .hs-content>p{color: white;text-align: center;margin-bottom: 30px;}
+    .hs-content button{display: block;margin:20px auto;font-size: 14px;}
+    #videofortry{display: none;}
+    article.system{margin-bottom: 150px;}
+    .sm-center{text-align: center;}
+    .sm-after{position: absolute;padding-top: 210px;width: 100%;}
+    .sm-add{padding-bottom: 60%;}
+    .sm-margin-top{margin-top: 30px;}
+    .title h4{font-size: 17px;line-height: 30px;}
+    .sm-block{display: block}
+    .sm-auto{margin: auto}
+    .sm-padding{padding: 0}
+}
+/*小md*/
+@media (min-width: 768px) {
+    .sm-show{display: none;}
+    .navbar-content {width: 34%;}
+    .navbar-header a{padding: 25px 15px}
+    .hs-content button+button{
+    margin-left: 30px;
+    }
+    .sm-bg-system{
+        background:linear-gradient(to bottom,#efefef,#fff);
+    }
+    .title h4{font-size: 12px;}
+    .pic{
+    position: absolute;
+    left: 102px;
+    top: 82px;
+    width: 325px;
+    height: 195px;
+    }
+}
+/*中lg*/
+@media (min-width: 992px) {
+    .navbar-content {width: 61%;}
+}
+/*大xl*/
+@media (min-width: 1200px) {
+    .navbar-content {width: 66%;}
+}

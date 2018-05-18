@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-31 20:49:36
+ * @version $Id$
+ */
+.navbar-tip ul li a:hover{
+    color: #4e4e4e;
+    text-decoration: none;
+}
+.navbar-func:hover,.login a:hover{
+    color: #000;
+}
+.navbar-content>ul>li:hover >a{
+    height: 84px;
+    color: black;
+    border-bottom: 1px solid #5a64d0;
+}
+.navbar-content>ul>li:hover >div{
+    transform: rotateX(0deg);
+}
+.production ul li:hover,.developer ul li:hover,.download ul li:hover{
+    background-color:#242a53;
+}
+.production ul li:hover svg,.developer ul li:hover svg,.download ul li:hover svg.title{
+    fill: #fff;
+}
+.production ul li:hover p,.developer ul li:hover p{
+    color: white;
+}
+.production ul li:hover span{
+    color: white;
+}
+.production ul li:hover figcaption,.developer ul li:hover figcaption{
+    display: block;
+}
+.download ul li:hover .showwhite{
+    color: white;
+}
+.showlight:hover svg{
+    fill:#46d2a7;
+}
+.showlight:hover .version{
+    background-color: #46d2a7;
+    color: white;
+}
+.hs-content button:nth-of-type(1):hover{
+    background-color: #4a4a4a;
+    box-shadow:0 9px 30px -3px #848484;
+}
+.hs-content button:nth-of-type(2):hover{
+    background-color: rgba(255,255,255,0.2);;
+    box-shadow: 0 9px 30px -3px #848484;
+}
+.resource_search span:hover{
+    color: red;
+}
+aside ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+aside ul li:last-child a:hover{
+    color: #06cfa7;
+}
+.hs-flow li:hover::after{
+    background-color:#828282;
+}
+.system a:hover{
+    text-decoration: none;
+}
+.system li:nth-child(1):hover{
+    background-image:linear-gradient(to right,#3e88d8 ,#2fbbfe);
+    box-shadow: 0 3px 10px 1px #2fbbfe;
+    z-index: 1;
+}
+.system li:nth-child(2):hover{
+    background-image:linear-gradient(to right,#24cec9 ,#23e4e3);
+    box-shadow: 0 3px 10px 1px #23e4e3;
+    z-index: 1;
+}
+.system li:nth-child(3):hover{
+    background-image:linear-gradient(to right,#6780c9 ,#7885e9);
+    box-shadow: 0 3px 10px 1px #7885e9;
+    z-index: 1;
+}
+.system li:nth-child(4):hover{
+    background-image:linear-gradient(to right,#5857ff ,#4ebbff);
+    box-shadow: 0 3px 10px 1px #4ebbff;
+    z-index: 1;
+}
+.system li:hover svg{
+    fill: white;
+    transform: scale(1.1);
+}
+.system li:hover span{
+    color: white;
+    transform: scale(1.4);
+}
+.worth ul li:hover::after{
+    width: 40px;
+}
+.worth a:hover{
+    text-decoration: none;
+    color:#46d2a7;
+}
+.provide-worth h3 a:hover{
+    color: #747474;
+    text-decoration: none;
+}
+.case li:hover::after{
+    width: 40px;
+}
+.find-create .create a:hover{
+    border-color:#cacde2;
+    border-radius: 5px;
+    box-shadow:0 0 4px 1px rgba(103,118,102,0.5);
+}
+.cooperation a:hover{
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: none;
+    color:#23527c;
+}
+.aliyun a:hover{
+    text-decoration: none;
+    color:#b4b4b4;
+}
+.copyright a:hover{
+    text-decoration: none;
+    color: white;
+}

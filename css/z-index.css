@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-08 02:03:26
+ * @version $Id$
+ */
+.header{
+    z-index: 999;
+}
+.blueball{
+    z-index: 10;
+}
+article.newvideo{
+    z-index: 10;
+}
+i.hsf{
+    z-index: 1;
+}
+.Phone img{
+    z-index: 1;
+}
+.contact-info{
+    z-index: 1;
+}
+.mobile-contact{
+    z-index: 1;
+}

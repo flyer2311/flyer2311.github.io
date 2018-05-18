@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-04-08 01:45:28
+ * @version $Id$
+ */
+
+i.hsf{
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color:#828282;
+}
+span.icon-cross{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #46d2a7;
+    line-height: 14px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+/*    transform: rotate(45deg);*/
+}
+.rotate-45{
+    transform: rotate(45deg);
+}
+i.fa{
+    color: #06cfa7;
+}
+i.dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #06cfa7;
+}
+i.hot{
+    position: absolute;
+    right: -15px;
+    top: 0;
+}
+i.hot svg{
+    width: 10px;
+    height: 10px;
+    fill:#06cfa7;
+}

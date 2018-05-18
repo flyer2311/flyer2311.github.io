@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Your Name (you@example.org)
+ * @date    2018-03-30 01:27:03
+ * @version $Id$
+ */
+ /*public*/
+.pos-f{
+    position: fixed;
+}
+.pos-a{
+    position: absolute;
+}
+.pos-r{
+    position: relative;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*public end*/
+
+/*header*/
+figure{
+    margin:0;
+}
+/*header end*/
+body,html{height: 100%;}
+body{overflow-x: hidden};
