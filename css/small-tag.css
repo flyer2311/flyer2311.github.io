@@ -16,19 +16,38 @@ i.hsf{
     background-color:#828282;
 }
 span.icon-cross{
+    position: relative;
     display: inline-block;
     width: 20px;
     height: 20px;
     background-color: #46d2a7;
-    line-height: 14px;
     color: white;
     text-align: center;
-    font-size: 26px;
     vertical-align: middle;
     border-radius: 50%;
     transition: .3s;
     cursor: pointer;
 /*    transform: rotate(45deg);*/
+}
+span.icon-cross::before{
+    position: absolute;
+    display: block;
+    content: '';
+    left: 9px;
+    top: 2px;
+    width: 2px;
+    height: 16px;
+    background-color: #fff;
+}
+span.icon-cross::after{
+    position: absolute;
+    display: block;
+    content: '';
+    left: 2px;
+    top: 9px;
+    width: 16px;
+    height: 2px;
+    background-color: #fff;
 }
 .rotate-45{
     transform: rotate(45deg);
